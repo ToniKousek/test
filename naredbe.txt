@@ -1,0 +1,13 @@
+git remote add origin (URL)	Samo jedanput
+
+# Download file-ove s githuba
+git fetch origin					Download-a file-ove iz "origin"-a koji je zapravo URL koji je vec podesen
+git checkout main					Provjerava da si u dobrom "branch"-u
+git merge origin/main					Spoji file-ove s interneta sa svojim file-ovima
+
+# Spremi file-ove na github
+git add .						Umjesto . može biti ime file-a
+git status						Provjera da su svi željeni file-ovi spremni za slanje
+git commit -m "Što se promjenilo s ovom promjenom"	Spremi file-ove na računalo s porukom
+Download-aj file-ove s githuba				Da se ne dogodi pogreška
+git push origin main					Poslane promjene
